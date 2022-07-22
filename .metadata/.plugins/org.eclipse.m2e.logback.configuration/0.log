@@ -58,3 +58,22 @@
 2022-07-22 22:07:16,163 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2022-07-22 22:07:16,165 [Worker-12: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2022-07-22 22:07:16,168 [Worker-12: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-22 22:12:44,290 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-07-22 22:12:44,291 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-22 22:12:44,292 [Worker-13: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-07-22 22:12:44,293 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-22 23:54:12,299 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2022-07-23 00:51:06,520 [Worker-4: Creating project "GramediaTest"] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.gramedia:GramediaTest:0.0.1-SNAPSHOT @ C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\GramediaTest\pom.xml.
+2022-07-23 00:51:07,034 [Worker-4: Creating project "GramediaTest"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GramediaTest/src/main/java
+2022-07-23 00:51:07,035 [Worker-4: Creating project "GramediaTest"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /GramediaTest/src/main/resources
+2022-07-23 00:51:07,036 [Worker-4: Creating project "GramediaTest"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /GramediaTest/src/test/java
+2022-07-23 00:51:07,037 [Worker-4: Creating project "GramediaTest"] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /GramediaTest/src/test/resources
+2022-07-23 00:51:07,772 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-07-23 00:51:07,783 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-23 00:51:07,786 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-07-23 00:51:07,787 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-23 00:51:39,515 [Worker-22: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.gramedia:GramediaTest:0.0.1-SNAPSHOT @ C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\GramediaTest\pom.xml.
+2022-07-23 00:51:40,069 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-07-23 00:51:40,071 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-07-23 00:51:40,074 [Worker-22: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2022-07-23 00:51:40,075 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
