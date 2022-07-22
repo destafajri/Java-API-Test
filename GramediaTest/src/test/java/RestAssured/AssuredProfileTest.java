@@ -20,7 +20,7 @@ public class AssuredProfileTest {
 		// Request
 		req = RestAssured.given();
 		req.header("Authorization",
-				"JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNzQyMjg2LCJlbWFpbCI6ImRlc3RhZmFqcmlAZ21haWwuY29tIiwidXNlcm5hbWUiOiJkZXN0YWZhanJpQGdtYWlsLmNvbSIsImV4cCI6MTY1OTcxOTc4MCwib3JpZ19pYXQiOjE2NTg1MTAxODAsImlzcyI6IkdSQU1FRElBIiwiZmlyc3RfbmFtZSI6ImRlc3RhIiwibGFzdF9uYW1lIjoiIn0.iXu7yFeYKNPJ9KJjA_swud09JMpvls4OEgLr527zeRA");
+				"JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNzQyNDY3LCJlbWFpbCI6InR1dG9yaWFsZGVzdGExMjNAZ21haWwuY29tIiwidXNlcm5hbWUiOiJ0dXRvcmlhbGRlc3RhMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY1OTcyNjUxOCwib3JpZ19pYXQiOjE2NTg1MTY5MTgsImlzcyI6IkdSQU1FRElBIiwiZmlyc3RfbmFtZSI6InR1dG9yaWFsIiwibGFzdF9uYW1lIjoiZWluc3RlaW4ifQ.gtdt2LwwW5m1M7_veNFCA138p_qJxC3Pi5nhghIaXIU");
 
 		// panggilan web service menggunakan method GET
 		Response response = req.get();
