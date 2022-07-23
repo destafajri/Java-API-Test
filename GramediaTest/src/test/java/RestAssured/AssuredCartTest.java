@@ -14,7 +14,8 @@ public class AssuredCartTest {
 
 	@Test
 	public void postGetCart() {
-		RestAssured.baseURI = "https://www.gramedia.com/api/user/cart/?version_type=V2&";
+//		RestAssured.baseURI = "https://www.gramedia.com/api/user/cart/?version_type=V2";
+		RestAssured.baseURI = "https://www.gramedia.com/api/user/cart";
 
 		// Request
 		req = RestAssured.given();
@@ -30,6 +31,26 @@ public class AssuredCartTest {
 		vRes = response.then();
 		vRes.statusCode(200); //response of success
 
+	}
+	
+	@Test
+	public void postGetSingleCart() {
+		RestAssured.baseURI = "https://www.gramedia.com/api/user/cart/item/4447707/"; //
+
+		// Request
+		req = RestAssured.given();
+		req.header("Authorization",
+				"JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNzQyNDY3LCJlbWFpbCI6InR1dG9yaWFsZGVzdGExMjNAZ21haWwuY29tIiwidXNlcm5hbWUiOiJ0dXRvcmlhbGRlc3RhMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY1OTcyNjUxOCwib3JpZ19pYXQiOjE2NTg1MTY5MTgsImlzcyI6IkdSQU1FRElBIiwiZmlyc3RfbmFtZSI6InR1dG9yaWFsIiwibGFzdF9uYW1lIjoiZWluc3RlaW4ifQ.gtdt2LwwW5m1M7_veNFCA138p_qJxC3Pi5nhghIaXIU");
+
+
+		// panggilan web service menggunakan method GET
+		Response response = req.get();
+
+		response.prettyPrint();
+
+		// Setup after
+		vRes = response.then();
+		vRes.statusCode(200);
 	}
 
 }

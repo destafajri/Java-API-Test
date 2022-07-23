@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="4076" started-at="2022-07-23T09:55:46 ICT" finished-at="2022-07-23T09:55:50 ICT">
+  <suite name="Default suite" duration-ms="3768" started-at="2022-07-23T10:42:01 ICT" finished-at="2022-07-23T10:42:05 ICT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="4076" started-at="2022-07-23T09:55:46 ICT" finished-at="2022-07-23T09:55:50 ICT">
-      <class name="RestAssured.AssuredRegistTest">
-        <test-method status="PASS" signature="postGetRegist()[pri:0, instance:RestAssured.AssuredRegistTest@131276c2]" name="postGetRegist" duration-ms="2828" started-at="2022-07-23T09:55:46 ICT" finished-at="2022-07-23T09:55:49 ICT">
+    <test name="Default test" duration-ms="3768" started-at="2022-07-23T10:42:01 ICT" finished-at="2022-07-23T10:42:05 ICT">
+      <class name="RestAssured.AssuredCartTest">
+        <test-method status="PASS" signature="postGetCart()[pri:0, instance:RestAssured.AssuredCartTest@131276c2]" name="postGetCart" duration-ms="3363" started-at="2022-07-23T10:42:01 ICT" finished-at="2022-07-23T10:42:04 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postGetRegist -->
-        <test-method status="PASS" signature="postPostRegist()[pri:0, instance:RestAssured.AssuredRegistTest@131276c2]" name="postPostRegist" duration-ms="1193" started-at="2022-07-23T09:55:49 ICT" finished-at="2022-07-23T09:55:50 ICT">
+        </test-method> <!-- postGetCart -->
+        <test-method status="PASS" signature="postGetSingleCart()[pri:0, instance:RestAssured.AssuredCartTest@131276c2]" name="postGetSingleCart" duration-ms="354" started-at="2022-07-23T10:42:04 ICT" finished-at="2022-07-23T10:42:05 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postPostRegist -->
-      </class> <!-- RestAssured.AssuredRegistTest -->
+        </test-method> <!-- postGetSingleCart -->
+      </class> <!-- RestAssured.AssuredCartTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
