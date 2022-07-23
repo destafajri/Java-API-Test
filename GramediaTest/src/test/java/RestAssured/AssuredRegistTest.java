@@ -13,13 +13,14 @@ public class AssuredRegistTest {
 	ValidatableResponse vRes;
 
 	@Test
-	public void postGetRegist() {
-		RestAssured.baseURI = "https://www.gramedia.com/api/auth/register/";
+	public void postGetRegistPage() {
+//		RestAssured.baseURI = "https://www.gramedia.com/api/auth/register/"; //Method GET not allowed for this API
+		RestAssured.baseURI = "https://www.gramedia.com/sign-up";
 
 		// Request
 		req = RestAssured.given();
-		req.header("Authorization",
-				"JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNzQyNDY3LCJlbWFpbCI6InR1dG9yaWFsZGVzdGExMjNAZ21haWwuY29tIiwidXNlcm5hbWUiOiJ0dXRvcmlhbGRlc3RhMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY1OTcyNjUxOCwib3JpZ19pYXQiOjE2NTg1MTY5MTgsImlzcyI6IkdSQU1FRElBIiwiZmlyc3RfbmFtZSI6InR1dG9yaWFsIiwibGFzdF9uYW1lIjoiZWluc3RlaW4ifQ.gtdt2LwwW5m1M7_veNFCA138p_qJxC3Pi5nhghIaXIU");
+//		req.header("Authorization",
+//				"JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNzQyNDY3LCJlbWFpbCI6InR1dG9yaWFsZGVzdGExMjNAZ21haWwuY29tIiwidXNlcm5hbWUiOiJ0dXRvcmlhbGRlc3RhMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY1OTcyNjUxOCwib3JpZ19pYXQiOjE2NTg1MTY5MTgsImlzcyI6IkdSQU1FRElBIiwiZmlyc3RfbmFtZSI6InR1dG9yaWFsIiwibGFzdF9uYW1lIjoiZWluc3RlaW4ifQ.gtdt2LwwW5m1M7_veNFCA138p_qJxC3Pi5nhghIaXIU");
 
 		// panggilan web service menggunakan method GET
 		Response response = req.get();
@@ -28,7 +29,7 @@ public class AssuredRegistTest {
 
 		// Setup after
 		vRes = response.then();
-		vRes.statusCode(405); // Method GET not allowed
+		vRes.statusCode(200); 
 
 	}
 
@@ -50,8 +51,6 @@ public class AssuredRegistTest {
 
 		// Request
 		req = RestAssured.given();
-//		req.header("Authorization",
-//				"JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNzQyNDY3LCJlbWFpbCI6InR1dG9yaWFsZGVzdGExMjNAZ21haWwuY29tIiwidXNlcm5hbWUiOiJ0dXRvcmlhbGRlc3RhMTIzQGdtYWlsLmNvbSIsImV4cCI6MTY1OTcyNjUxOCwib3JpZ19pYXQiOjE2NTg1MTY5MTgsImlzcyI6IkdSQU1FRElBIiwiZmlyc3RfbmFtZSI6InR1dG9yaWFsIiwibGFzdF9uYW1lIjoiZWluc3RlaW4ifQ.gtdt2LwwW5m1M7_veNFCA138p_qJxC3Pi5nhghIaXIU");
 		req.body(data);
 
 		// panggilan web service menggunakan method POST
@@ -61,7 +60,7 @@ public class AssuredRegistTest {
 
 		// Setup after
 		vRes = response.then();
-		vRes.statusCode(409); // Email telah terdaftar
+		vRes.statusCode(409); //Error Email telah terdaftar
 
 	}
 

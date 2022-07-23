@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssured.AssuredCartTest">
+      <class name="RestAssured.AssuredRegistTest">
         <methods>
-          <include name="postGetCart"/>
+          <include name="postGetRegist"/>
         </methods>
-      </class> <!-- RestAssured.AssuredCartTest -->
+      </class> <!-- RestAssured.AssuredRegistTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
