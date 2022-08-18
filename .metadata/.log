@@ -2288,3 +2288,394 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:45:26.126
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2022-08-18 23:51:10.145
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:89)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:51:40.856
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:51:40.863
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:51:55.300
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:51:55.304
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:52:42.193
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:52:42.196
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:54:24.120
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:54:24.123
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:54:56.813
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:54:56.816
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-18 23:55:02.974
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63142 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--731578129\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar org.testng.remote.RemoteTestNG -serport 63142 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--731578129\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:55:29.357
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:55:29.359
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-18 23:55:32.963
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63147 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1053566986\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar org.testng.remote.RemoteTestNG -serport 63147 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1053566986\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:55:51.515
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:55:51.518
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:57:46.773
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:57:46.776
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:58:11.027
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:58:11.029
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:58:20.892
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:58:20.895
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:58:26.934
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:58:26.943
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:58:36.117
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 23:58:36.119
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:00:08.903
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:00:08.906
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:00:13.597
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:00:13.598
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-19 00:00:18.591
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63191 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--2063703059\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar org.testng.remote.RemoteTestNG -serport 63191 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--2063703059\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:00:39.755
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:00:39.757
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-19 00:00:43.502
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63195 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1585814277\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar org.testng.remote.RemoteTestNG -serport 63195 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1585814277\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:04:35.123
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:04:35.125
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:05:14.298
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:05:14.301
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:05:26.911
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:05:26.914
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:07:27.994
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:07:27.996
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:08:16.100
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:08:16.103
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:11:12.239
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:11:12.243
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:11:13.544
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:11:13.548
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:11:17.817
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:11:17.818
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:11:38.285
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:11:38.289
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:11:47.563
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:11:47.567
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-19 00:11:53.113
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63275 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--712119567\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar:C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar org.testng.remote.RemoteTestNG -serport 63275 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--712119567\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:13:56.537
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:13:56.540
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:14:52.079
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:14:52.082
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:15:35.152
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:15:35.154
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:15:56.422
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:15:56.425
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-19 00:16:00.357
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63298 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1805608234\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar:C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar org.testng.remote.RemoteTestNG -serport 63298 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1805608234\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:17:42.684
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:17:42.688
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:20:00.403
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:20:00.405
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-19 00:20:05.691
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63309 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1702158397\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar:C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar org.testng.remote.RemoteTestNG -serport 63309 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1702158397\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:20:47.869
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:20:47.872
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:23:29.225
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:23:29.228
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:23:55.082
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:23:55.086
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-19 00:24:01.487
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63323 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1002145262\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar:C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar org.testng.remote.RemoteTestNG -serport 63323 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1002145262\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:24:21.579
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:24:21.581
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:24:48.707
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:24:48.710
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:25:30.796
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:25:30.798
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-19 00:25:34.537
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63327 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-885169042\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar:C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar org.testng.remote.RemoteTestNG -serport 63327 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-885169042\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:26:19.801
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:26:19.803
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:26:35.678
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:26:35.680
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:27:08.043
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:27:08.045
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:27:14.062
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:27:14.064
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:27:33.340
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:27:33.343
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:30:47.931
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:30:47.933
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-19 00:31:45.828
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 63349 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1446921802\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar:C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar org.testng.remote.RemoteTestNG -serport 63349 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_GET_POST\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1446921802\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:32:10.608
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:32:10.611
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:32:15.497
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:32:15.499
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:33:31.202
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:33:31.205
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:33:32.472
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:33:32.475
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:33:45.280
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:33:45.288
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:33:49.697
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 00:33:49.700
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
