@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3110" started-at="2022-08-19T00:31:46 ICT" finished-at="2022-08-19T00:31:49 ICT">
+  <suite name="Default suite" duration-ms="4375" started-at="2022-08-19T06:27:33 ICT" finished-at="2022-08-19T06:27:37 ICT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3110" started-at="2022-08-19T00:31:46 ICT" finished-at="2022-08-19T00:31:49 ICT">
-      <class name="tests.Post">
-        <test-method status="PASS" signature="get()[pri:0, instance:tests.Post@3b084709]" name="get" duration-ms="3056" started-at="2022-08-19T00:31:46 ICT" finished-at="2022-08-19T00:31:49 ICT">
+    <test name="Default test" duration-ms="4375" started-at="2022-08-19T06:27:33 ICT" finished-at="2022-08-19T06:27:37 ICT">
+      <class name="tests.Put">
+        <test-method status="PASS" signature="put()[pri:0, instance:tests.Put@63e2203c]" name="put" duration-ms="3064" started-at="2022-08-19T06:27:33 ICT" finished-at="2022-08-19T06:27:36 ICT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get -->
-      </class> <!-- tests.Post -->
+        </test-method> <!-- put -->
+      </class> <!-- tests.Put -->
+      <class name="tests.Delete">
+        <test-method status="PASS" signature="delete()[pri:0, instance:tests.Delete@1efed156]" name="delete" duration-ms="625" started-at="2022-08-19T06:27:36 ICT" finished-at="2022-08-19T06:27:37 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete -->
+      </class> <!-- tests.Delete -->
+      <class name="tests.Patch">
+        <test-method status="PASS" signature="patch()[pri:0, instance:tests.Patch@6737fd8f]" name="patch" duration-ms="620" started-at="2022-08-19T06:27:37 ICT" finished-at="2022-08-19T06:27:37 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patch -->
+      </class> <!-- tests.Patch -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
