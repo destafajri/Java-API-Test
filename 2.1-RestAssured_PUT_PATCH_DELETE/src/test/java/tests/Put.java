@@ -14,9 +14,9 @@ import static org.hamcrest.Matchers.*;
 public class Put {
 
 	@Test
-	public void get() {
+	public void put() {
 		baseURI = "https://reqres.in/api";
-		// API POST "https://reqres.in/api/users"
+		// API POST "https://reqres.in/api/users/2"
 
 		JSONObject json = new JSONObject();
 
