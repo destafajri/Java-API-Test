@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6601" started-at="2022-07-23T13:27:41 ICT" finished-at="2022-07-23T13:27:48 ICT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6601" started-at="2022-07-23T13:27:41 ICT" finished-at="2022-07-23T13:27:48 ICT">
+      <class name="RestAssured.AssuredProfileTest">
+        <test-method status="PASS" signature="postGetProfile()[pri:0, instance:RestAssured.AssuredProfileTest@3fd7a715]" name="postGetProfile" duration-ms="3676" started-at="2022-07-23T13:27:41 ICT" finished-at="2022-07-23T13:27:45 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postGetProfile -->
+      </class> <!-- RestAssured.AssuredProfileTest -->
+      <class name="RestAssured.AssuredRegistTest">
+        <test-method status="PASS" signature="postGetRegistPage()[pri:0, instance:RestAssured.AssuredRegistTest@711f39f9]" name="postGetRegistPage" duration-ms="793" started-at="2022-07-23T13:27:45 ICT" finished-at="2022-07-23T13:27:46 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postGetRegistPage -->
+        <test-method status="PASS" signature="postPostRegist()[pri:0, instance:RestAssured.AssuredRegistTest@711f39f9]" name="postPostRegist" duration-ms="1287" started-at="2022-07-23T13:27:46 ICT" finished-at="2022-07-23T13:27:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postPostRegist -->
+      </class> <!-- RestAssured.AssuredRegistTest -->
+      <class name="RestAssured.AssuredCartTest">
+        <test-method status="PASS" signature="postGetCart()[pri:0, instance:RestAssured.AssuredCartTest@71bbf57e]" name="postGetCart" duration-ms="422" started-at="2022-07-23T13:27:47 ICT" finished-at="2022-07-23T13:27:47 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postGetCart -->
+        <test-method status="PASS" signature="postGetSingleCart()[pri:0, instance:RestAssured.AssuredCartTest@71bbf57e]" name="postGetSingleCart" duration-ms="327" started-at="2022-07-23T13:27:47 ICT" finished-at="2022-07-23T13:27:48 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postGetSingleCart -->
+      </class> <!-- RestAssured.AssuredCartTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

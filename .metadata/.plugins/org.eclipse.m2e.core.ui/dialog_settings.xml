@@ -43,12 +43,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.gramedia"/>
 			<item value="com.jc"/>
 		</list>
 		<list key="name">
+			<item value="learn"/>
 			<item value="belajar01"/>
 		</list>
 		<list key="artifactId">
+			<item value="GramediaTest"/>
 			<item value="BelajarRestAssured"/>
 		</list>
 		<list key="projectNameTemplate">
