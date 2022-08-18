@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3110" started-at="2022-08-19T00:31:46 ICT" finished-at="2022-08-19T00:31:49 ICT">
+  <suite name="Default suite" duration-ms="3101" started-at="2022-08-19T00:45:13 ICT" finished-at="2022-08-19T00:45:16 ICT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3110" started-at="2022-08-19T00:31:46 ICT" finished-at="2022-08-19T00:31:49 ICT">
-      <class name="tests.Post">
-        <test-method status="PASS" signature="get()[pri:0, instance:tests.Post@3b084709]" name="get" duration-ms="3056" started-at="2022-08-19T00:31:46 ICT" finished-at="2022-08-19T00:31:49 ICT">
+    <test name="Default test" duration-ms="3101" started-at="2022-08-19T00:45:13 ICT" finished-at="2022-08-19T00:45:16 ICT">
+      <class name="tests.Put">
+        <test-method status="PASS" signature="get()[pri:0, instance:tests.Put@3b084709]" name="get" duration-ms="3045" started-at="2022-08-19T00:45:13 ICT" finished-at="2022-08-19T00:45:16 ICT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- get -->
-      </class> <!-- tests.Post -->
+      </class> <!-- tests.Put -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
