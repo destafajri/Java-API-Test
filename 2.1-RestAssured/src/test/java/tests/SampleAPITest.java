@@ -1,5 +1,6 @@
 package tests;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -18,5 +19,9 @@ public class SampleAPITest {
 		System.out.println(response.getStatusLine());
 		System.out.println(response.getHeader("content-type"));
 		
+		//Assert
+		int statusCode=response.getStatusCode();
+		
+		Assert.assertEquals(statusCode, 200);
 	}
 }
