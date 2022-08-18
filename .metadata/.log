@@ -1257,3 +1257,1034 @@ org.eclipse.core.runtime.CoreException: Launch configuration AssuredCommentTest 
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 16:37:54.522
 !MESSAGE Launch configuration AssuredCommentTest references closed project 1.1-BelajarRestAssured
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:28:45.180
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:28:45.189
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:32:49.256
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:32:49.260
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:33:17.562
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:33:17.566
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:35:38.541
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:35:38.546
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:36:01.444
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:36:01.450
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2022-08-18 21:36:05.817
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:89)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.746
+!MESSAGE Launch configuration AssuredCartTest, ... references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredCartTest, ... references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.747
+!MESSAGE Launch configuration AssuredCartTest, ... references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.749
+!MESSAGE Launch configuration AssuredCartTest, ... references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredCartTest, ... references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.749
+!MESSAGE Launch configuration AssuredCartTest, ... references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.755
+!MESSAGE Launch configuration AssuredCartTest, ... references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredCartTest, ... references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.755
+!MESSAGE Launch configuration AssuredCartTest, ... references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.757
+!MESSAGE Launch configuration AssuredCartTest references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredCartTest references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.757
+!MESSAGE Launch configuration AssuredCartTest references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.759
+!MESSAGE Launch configuration AssuredCartTest references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredCartTest references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.759
+!MESSAGE Launch configuration AssuredCartTest references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.763
+!MESSAGE Launch configuration AssuredCartTest references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredCartTest references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.763
+!MESSAGE Launch configuration AssuredCartTest references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.765
+!MESSAGE Launch configuration AssuredProfileTest references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredProfileTest references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.765
+!MESSAGE Launch configuration AssuredProfileTest references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.768
+!MESSAGE Launch configuration AssuredProfileTest references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredProfileTest references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.768
+!MESSAGE Launch configuration AssuredProfileTest references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.774
+!MESSAGE Launch configuration AssuredProfileTest references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredProfileTest references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.774
+!MESSAGE Launch configuration AssuredProfileTest references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.777
+!MESSAGE Launch configuration AssuredRegistTest references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredRegistTest references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.777
+!MESSAGE Launch configuration AssuredRegistTest references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.780
+!MESSAGE Launch configuration AssuredRegistTest references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredRegistTest references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.780
+!MESSAGE Launch configuration AssuredRegistTest references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:54.786
+!MESSAGE Launch configuration AssuredRegistTest references closed project 1.2-GramediaTest
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredRegistTest references closed project 1.2-GramediaTest
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:54.786
+!MESSAGE Launch configuration AssuredRegistTest references closed project 1.2-GramediaTest
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:59.681
+!MESSAGE Launch configuration AssuredCommentTest references closed project 1.1-BelajarRestAssured
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredCommentTest references closed project 1.1-BelajarRestAssured
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:401)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:59.682
+!MESSAGE Launch configuration AssuredCommentTest references closed project 1.1-BelajarRestAssured
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:59.684
+!MESSAGE Launch configuration AssuredCommentTest references closed project 1.1-BelajarRestAssured
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredCommentTest references closed project 1.1-BelajarRestAssured
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setDirty(LaunchConfigurationWorkingCopy.java:523)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.setAttribute(LaunchConfigurationWorkingCopy.java:411)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:402)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:59.684
+!MESSAGE Launch configuration AssuredCommentTest references closed project 1.1-BelajarRestAssured
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-08-18 21:36:59.691
+!MESSAGE Launch configuration AssuredCommentTest references closed project 1.1-BelajarRestAssured
+!STACK 1
+org.eclipse.core.runtime.CoreException: Launch configuration AssuredCommentTest references closed project 1.1-BelajarRestAssured
+	at org.eclipse.jdt.launching.JavaRuntime.abort(JavaRuntime.java:1861)
+	at org.eclipse.jdt.launching.JavaRuntime.getJavaProject(JavaRuntime.java:1733)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.updateLaunchConfiguration(MavenLaunchConfigurationListener.java:62)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.launchConfigurationChanged(MavenLaunchConfigurationListener.java:48)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.run(LaunchManager.java:225)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.debug.internal.core.LaunchManager$ConfigurationNotifier.notify(LaunchManager.java:209)
+	at org.eclipse.debug.internal.core.LaunchManager.launchConfigurationChanged(LaunchManager.java:2128)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.writeNewFile(LaunchConfigurationWorkingCopy.java:376)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave0(LaunchConfigurationWorkingCopy.java:259)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:229)
+	at org.eclipse.debug.internal.core.LaunchConfigurationWorkingCopy.doSave(LaunchConfigurationWorkingCopy.java:187)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:403)
+	at org.eclipse.m2e.jdt.internal.launch.MavenRuntimeClasspathProvider.disable(MavenRuntimeClasspathProvider.java:427)
+	at org.eclipse.m2e.jdt.internal.launch.MavenLaunchConfigurationListener.mavenProjectChanged(MavenLaunchConfigurationListener.java:134)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.notifyProjectChangeListeners(ProjectRegistryManager.java:806)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.applyMutableProjectRegistry(ProjectRegistryManager.java:972)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.lambda$0(ProjectRegistryRefreshJob.java:148)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryRefreshJob.run(ProjectRegistryRefreshJob.java:83)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.jdt.launching 4 124 2022-08-18 21:36:59.691
+!MESSAGE Launch configuration AssuredCommentTest references closed project 1.1-BelajarRestAssured
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:40:49.776
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:40:49.779
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:44:23.557
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:44:23.560
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:45:11.421
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:45:11.427
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:45:55.463
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:45:55.466
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:46:06.898
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:46:06.901
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:46:10.014
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:46:10.017
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:48:49.414
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:48:49.417
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:51:28.917
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:51:28.920
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:51:47.901
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:51:47.904
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-18 21:51:53.717
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62570 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--450856377\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar:C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar:C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar:C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar:C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar:C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar:C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar:C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar:C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar org.testng.remote.RemoteTestNG -serport 62570 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--450856377\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:53:06.033
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:53:06.037
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:53:30.533
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:53:30.536
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:54:54.928
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:54:54.931
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-18 21:55:03.410
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62585 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1925461743\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar:C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar:C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar:C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar:C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar:C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar:C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar:C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar:C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar org.testng.remote.RemoteTestNG -serport 62585 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1925461743\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:57:21.226
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:57:21.230
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:59:04.768
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 21:59:04.770
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-18 21:59:09.209
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62609 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1850772840\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar:C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar:C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar:C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar:C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar:C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar:C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar:C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar:C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar org.testng.remote.RemoteTestNG -serport 62609 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1850772840\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:01:14.892
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:01:14.894
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:01:15.904
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:01:15.907
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:03:51.550
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:03:51.554
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:03:59.001
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:03:59.004
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2022-08-18 22:04:04.619
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:89)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SESSION 2022-08-18 22:05:26.611 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ID
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-08-18 22:05:43.057
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-18 22:05:43.057
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@470f0637,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b278b17,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-18 22:05:43.057
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2ae5580,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4203529f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.testng.eclipse 4 4 2022-08-18 22:05:49.347
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:89)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-08-18 22:05:51.117
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:08:42.721
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:08:42.747
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:08:44.086
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:08:44.091
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:09:23.286
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:09:23.289
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:10:01.382
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:10:01.385
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:13:22.855
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:13:22.859
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:13:50.456
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:13:50.460
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:13:57.564
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:13:57.567
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:14:08.120
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:14:08.123
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:14:35.593
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:14:35.597
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:14:41.213
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:14:41.217
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:14:49.039
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:14:49.042
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:15:20.918
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:15:20.921
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:15:48.123
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:15:48.126
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:16:41.290
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:16:41.294
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:16:56.477
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:16:56.481
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:17:09.373
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:17:09.377
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-18 22:17:13.801
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62678 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1396150116\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar:C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar:C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar:C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar:C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar:C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar:C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar:C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar:C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar org.testng.remote.RemoteTestNG -serport 62678 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-1396150116\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:22:18.341
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:22:18.344
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:26:07.155
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:26:07.158
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:28:00.280
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:28:00.283
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:28:49.864
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:28:49.869
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:34:17.309
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:34:17.313
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:34:49.947
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:34:49.950
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:35:19.551
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:35:19.555
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-18 22:35:23.872
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62761 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1269094171\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar:C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar:C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar:C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar:C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar:C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar:C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar:C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar:C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar org.testng.remote.RemoteTestNG -serport 62761 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1269094171\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:38:50.290
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:38:50.293
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:39:03.019
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:39:03.022
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:39:34.616
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:39:34.620
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:39:50.803
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:39:50.806
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:40:37.792
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:40:37.796
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-18 22:40:43.730
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62775 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1080691448\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar:C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar:C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar:C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar:C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar:C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar:C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar:C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar:C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar org.testng.remote.RemoteTestNG -serport 62775 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--1080691448\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:41:24.463
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:41:24.467
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:41:28.492
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:41:28.495
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:41:56.809
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:41:56.811
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 1 0 2022-08-18 22:42:00.527
+!MESSAGE [TestNGLaunchConfigurationDelegate] Launching:
+  Classpath: C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar
+  VMArgs:    -ea
+  Class:     org.testng.remote.RemoteTestNG
+  Args:      -serport 62784 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--90039651\testng-customsuite.xml
+java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-validator\2.2.6\json-schema-validator-2.2.6.jar:C:\Users\ASUS\.m2\repository\com\google\code\findbugs\jsr305\3.0.0\jsr305-3.0.0.jar:C:\Users\ASUS\.m2\repository\joda-time\joda-time\2.3\joda-time-2.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\libphonenumber\libphonenumber\6.2\libphonenumber-6.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\json-schema-core\1.2.5\json-schema-core-1.2.5.jar:C:\Users\ASUS\.m2\repository\com\github\fge\uri-template\0.9\uri-template-0.9.jar:C:\Users\ASUS\.m2\repository\com\github\fge\msg-simple\1.1\msg-simple-1.1.jar:C:\Users\ASUS\.m2\repository\com\github\fge\btf\1.2\btf-1.2.jar:C:\Users\ASUS\.m2\repository\com\github\fge\jackson-coreutils\1.8\jackson-coreutils-1.8.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.2.3\jackson-databind-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.2.3\jackson-annotations-2.2.3.jar:C:\Users\ASUS\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.2.3\jackson-core-2.2.3.jar:C:\Users\ASUS\.m2\repository\org\mozilla\rhino\1.7R4\rhino-1.7R4.jar:C:\Users\ASUS\.m2\repository\javax\mail\mailapi\1.4.3\mailapi-1.4.3.jar:C:\Users\ASUS\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar:C:\Users\ASUS\.m2\repository\net\sf\jopt-simple\jopt-simple\4.6\jopt-simple-4.6.jar org.testng.remote.RemoteTestNG -serport 62784 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse--90039651\testng-customsuite.xml
+!SESSION 2022-08-18 22:43:24.225 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=18.0.1.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_ID
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2022-08-18 22:43:33.709
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-18 22:43:33.709
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@53ddabc6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@39ac8c0c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-08-18 22:43:33.709
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@361f1647,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@51172948,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.testng.eclipse 4 4 2022-08-18 22:43:39.539
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:89)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-08-18 22:43:41.756
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ASUS'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:44:08.418
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:44:08.433
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:44:09.855
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:44:09.861
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:44:38.556
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:44:38.563
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:44:39.942
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:44:39.945
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:45:07.927
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:45:07.944
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:45:24.901
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:45:24.906
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:45:26.123
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-18 22:45:26.126
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
