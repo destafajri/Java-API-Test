@@ -2809,3 +2809,62 @@ java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org
   Class:     org.testng.remote.RemoteTestNG
   Args:      -serport 50916 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_PUT_PATCH_DELETE\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-338607556\testng-customsuite.xml
 java -ea -classpath C:\Users\ASUS\eclipse\java-2022-06\eclipse\configuration\org.eclipse.osgi\429\0\.cp\lib\testng-remote.jar:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_PUT_PATCH_DELETE\target\test-classes:C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_PUT_PATCH_DELETE\target\classes:C:\Users\ASUS\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar:C:\Users\ASUS\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar:C:\Users\ASUS\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar:C:\Users\ASUS\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar:C:\Users\ASUS\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar:C:\Users\ASUS\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar:C:\Users\ASUS\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar:C:\Users\ASUS\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar:C:\Users\ASUS\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar:C:\Users\ASUS\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar:C:\Users\ASUS\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar:C:\Users\ASUS\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar:C:\Users\ASUS\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar:C:\Users\ASUS\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar:C:\Users\ASUS\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar:C:\Users\ASUS\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar:C:\Users\ASUS\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar:C:\Users\ASUS\.m2\repository\junit\junit\4.10\junit-4.10.jar:C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar org.testng.remote.RemoteTestNG -serport 50916 -protocol json -d C:\Users\ASUS\Desktop\Quality Assurance\Rest-API\2.1-RestAssured_PUT_PATCH_DELETE\test-output C:\Users\ASUS\AppData\Local\Temp\testng-eclipse-338607556\testng-customsuite.xml
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 06:32:12.225
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 06:32:12.230
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.testng.eclipse 4 4 2022-08-19 06:32:19.125
+!MESSAGE Error
+!STACK 0
+java.util.concurrent.CancellationException
+	at org.eclipse.jface.internal.text.codemining.CancellationExceptionMonitor.isCanceled(CancellationExceptionMonitor.java:33)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:80)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.processElements(TestCodeMiningProvider.java:89)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.mineForTests(TestCodeMiningProvider.java:67)
+	at org.testng.eclipse.ui.codemining.TestCodeMiningProvider.lambda$0(TestCodeMiningProvider.java:40)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:20:43.299
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:20:43.302
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:20:44.548
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:20:44.551
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:20:58.592
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:20:58.595
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:20:59.822
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:20:59.824
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:21:50.328
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:21:50.330
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:21:51.780
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2022-08-19 07:21:51.783
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
